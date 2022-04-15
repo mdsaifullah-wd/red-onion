@@ -2,6 +2,10 @@
   max-width: 1140px;
   margin: 0 auto;
 }
+.small-container {
+  max-width: 720px;
+  margin: 0 auto;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
