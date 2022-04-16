@@ -10,6 +10,7 @@ function App() {
       <Header></Header>
       <Routes>
         <Route path="/*" element={<Home></Home>}>
+          <Route index element={<Foods></Foods>}></Route>
           <Route path=":foodType" element={<Foods></Foods>}></Route>
         </Route>
       </Routes>
