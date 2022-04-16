@@ -6,6 +6,9 @@
   max-width: 720px;
   margin: 0 auto;
 }
+a {
+  text-decoration: none;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
