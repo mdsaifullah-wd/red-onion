@@ -9,15 +9,9 @@ function App() {
     <>
       <Header></Header>
       <Routes>
-        <Route path="/" element={<Home></Home>}></Route>
-        <Route
-          path="/home/:foodType"
-          element={
-            <Home>
-              <Foods></Foods>
-            </Home>
-          }
-        ></Route>
+        <Route path="/*" element={<Home></Home>}>
+          <Route path=":foodType" element={<Foods></Foods>}></Route>
+        </Route>
       </Routes>
     </>
   );
